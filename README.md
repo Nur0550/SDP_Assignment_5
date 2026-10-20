@@ -66,6 +66,10 @@ As mandated in Section 2 (Requirement 4), Family 1 was initially implemented usi
   - **Commit Hash:** `156c09b`
   - **Message:** `Refactor rental pricing to Strategy pattern with clean Context and strategies`
   - **Description:** Extracted monolithic cases into `RentalPricingStrategy`, `StandardDailyPricingStrategy`, `LongTermSubscriptionPricingStrategy`, `DynamicDemandPricingStrategy`, and `RentalPricingContext`. The exact same test suite passed without regression.
+- **Complete Project Commit:**
+  - **Commit Hash:** `edc348c`
+  - **Message:** `Complete Assignment 5: Family 2 allocation strategies, selectors, JUnit 5 test suite, demo and README`
+  - **Description:** Added vehicle allocation strategy family, strategy selectors, parameterized tests, interactive demo, and documentation.
 
 ---
 

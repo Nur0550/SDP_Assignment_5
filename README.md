@@ -59,11 +59,13 @@ Template Method and Strategy both allow algorithm customization, but achieve it 
 As mandated in Section 2 (Requirement 4), Family 1 was initially implemented using a monolithic switch-case structure and subsequently refactored into the clean Strategy pattern with identical test pass rates on both commits:
 
 - **Before Refactoring Commit:**
-  - **Commit Hash:** `9352ada`
+  - **Commit Hash:** [`9352ada`](https://github.com/Nur0550/SDP_Assignment_5/commit/9352ada)
+  - **Commit Link:** [View Before Refactoring Commit](https://github.com/Nur0550/SDP_Assignment_5/commit/9352ada)
   - **Message:** `Initial monolithic implementation of rental pricing with switch/if-else`
   - **Description:** Encapsulated standard, long-term, and dynamic demand pricing in a single monolithic `RentalPriceCalculator` with conditional branching. Verified with unit tests in `RentalPricingRefactoringTest`.
 - **After Refactoring Commit:**
-  - **Commit Hash:** `156c09b`
+  - **Commit Hash:** [`156c09b`](https://github.com/Nur0550/SDP_Assignment_5/commit/156c09b)
+  - **Commit Link:** [View After Refactoring Commit](https://github.com/Nur0550/SDP_Assignment_5/commit/156c09b)
   - **Message:** `Refactor rental pricing to Strategy pattern with clean Context and strategies`
   - **Description:** Extracted monolithic cases into `RentalPricingStrategy`, `StandardDailyPricingStrategy`, `LongTermSubscriptionPricingStrategy`, `DynamicDemandPricingStrategy`, and `RentalPricingContext`. The exact same test suite passed without regression.
 - **Complete Project Commit:**
